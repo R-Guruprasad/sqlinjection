@@ -118,8 +118,6 @@ Here we are trying to extract column names from the “accounts” table.
 
 ![image](https://github.com/R-Guruprasad/sqlinjection/assets/119390308/3d9e1a02-b4fd-4350-8e86-37cddf14e283)
 
-![image](https://github.com/R-Guruprasad/sqlinjection/assets/119390308/1f6e5ee8-adf6-409f-9397-a563ae6ed8dc)
-
 Once we discovered all available column names, we can extract information from them by just adding those column names in our query sentence.
 
 Ex: (union select 1,username,password,is_admin,5 from accounts).
